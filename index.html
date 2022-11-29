@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leonardo Varags Coelho">
+    <!--Estilização-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>IMC</title>
+</head>
+
+<body>
+    <main>
+        <section class="header text-center m-3">
+            <h1>Calcule seu peso</h1>
+        </section>
+        <section class="info m-3 row">
+            <div class="insPeso col-5">
+                <label for="id-nome">Nome</label>
+                <input type="text" id="id-nome" class="form-control" required>
+                <br>
+                <label for="id-altura">Altura</label>
+                <input type="number" step="0.01" id="id-altura" class="form-control" required>
+                <br>
+                <label for="id-peso">Peso</label>
+                <input type="number" step="0.001" id="id-peso" class="form-control" required>
+                <button id="id-calc" class="btn btn-primary mt-4 ml-4">Calcular</button>
+            </div>
+        </section>
+        <section class="resultado m-3 row">
+            <h3>Resultado</h3>
+            <div id="nomeinf"></div>
+            <div id="pesoInf"></div>
+            <div id="alturaInf"></div>
+            <br>
+            <div id="pesoMinIdeal"></div>
+            <div id="pesoMaxIdeal"></div>
+            <div id="imcRes"></div>
+            <div id="imcResImg">
+                <img id="pesoBaixo" src="img/baixo_peso.png" width="10%">
+                <img id="pesoNormal" src="img/peso_normal.png" width="10%">
+                <img id="acimaPeso" src="img/excesso_peso.png" width="10%">
+                <img id="obesidade" src="img/obesidade.png" width="10%">
+                <img id="obesidadeEx" src="img/obesidade_extrema.png" width="10%">
+            </div>
+        </section>
+    </main>
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+.header {
+    background-color: rgb(53, 53, 255);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    box-shadow: 3px 3px 5px black;
+}
+
+.info {
+    background-color: rgb(13, 189, 13);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    box-shadow: 3px 3px 5px black;
+    font-size: 25px;
+}
+
+.resultado{
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-shadow: 0px 5px 10px black;
+    box-shadow: 3px 3px 5px black;
+}
+
+#imcResImg img{
+    display: none;
+}
